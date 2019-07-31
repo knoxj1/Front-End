@@ -58,6 +58,10 @@ const NavBar = () => {
         <NavContainer>
             <NavigationBar>
                 <NavLogo>Empathy Builder</NavLogo>
+                <Button ClassName = "getaway" > ("#get-away").on("click", function() {
+  window.open("http://yahoo.com", "_newtab", "http://duckduckgo.com" , "_newtab");
+  window.location.replace('http://google.com');0
+}); </Button>11111221
                 <Links>
                     {localStorage.getItem('jwt') ? (
                         <div>
